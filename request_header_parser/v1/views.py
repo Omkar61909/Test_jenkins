@@ -11,4 +11,4 @@ class RequestHeaderParserDataDetail(APIView):
 
 
 	def get(self, request, *args, **kwargs):
-		return Response({'hello': 'world'}, status=status.HTTP_200_OK)
+		return Response({'hello': 'world you'}, status=status.HTTP_200_OK)
